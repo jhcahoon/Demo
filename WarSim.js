@@ -134,8 +134,9 @@ while ((players.player1.length > 0) && (players.player2.length > 0)) {
   //console.log('Player 2 length: ' + players.player2.length);
   console.log('');
 
+
   if (players.player1.length == 0) {
-    console.log('Player 2 wins!');
+    //console.log('Player 2 wins!');
   } else if (players.player2.length == 0) {
     console.log('Player 1 wins!');
   }
